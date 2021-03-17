@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('layouts/_min.head.ejs') %>
+        <title>
+            <%=title%>
+        </title>
+</head>
+
+<body>
+    <%- include('layouts/_navbar.ejs') %>
+        <h1>
+            <%=title%>💻
+        </h1>
+
+        <div class="container fluid">
+            <div class="row animate__animated animate__fadeInUp">
+                <div class="col-12 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Versiones del proyecto</h5>
+                            <p class="card-text">
+                                <a href="https://github.com/Panchober27/ExtraLimpio">Link hacia el repo de
+                                    github.</a><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="width: 20rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <p class="card-text">
+                                Desarrollado para evaluacion estudiantil.
+                                Colaboradores:
+                                <a href="https://github.com/Marile514">Luis Marileo</a>
+                                
+                                <br>
+                                <br>
+                                Proyecto desarrollado con Java Netbeans.<br>
+                                esta es una aplicaion de escritorio para el manejo de una
+                                lavanderia, este es un proyecto en desarrollo.<br>
+                                en el futuro espero poder desarrollar su version web usando nodeJS❤
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <%- include('layouts/_min.footer.ejs') %>
+</body>
+
+</html>

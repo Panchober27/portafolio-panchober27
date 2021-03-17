@@ -1,1 +1,19 @@
-/* Hoja de estilos para los componentes estaticos del sitio web. */
+body {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.card {
+  background-color: black;
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.btn-primary {
+  background-color: black;
+  border: ridge orangered;
+}
+.btn-primary:hover {
+  background-color: orangered;
+  border: ridge orangered;
+}
