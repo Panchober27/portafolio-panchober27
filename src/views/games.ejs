@@ -1,18 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%- include('layouts/_min.head.ejs') %>
-    <title><%=title%></title>
+        <title>
+            <%=title%>
+        </title>
 </head>
+
 <body>
     <%- include('layouts/_navbar.ejs') %>
 
-    <h1><%=title%>🎮❤❤❤</h1>
+        <h1 style="text-align: center;">
+            DEMON RACE🎮❤❤❤
+        </h1>
+
+        <div class="container-fluid animate__animated animate__fadeInUp">
+            <div class="row ">
+                <div class="col-12">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/components/godot-live.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/components/godot-live-script.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/components/godot-live.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row animate__animated animate__fadeInUp">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/icons/idle1.png" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Demon Race</h5>
+                                    <p class="card-text">
+                                        Proyecto desarrollado utilizando <a href="https://godotengine.org/">Godot</a>
+                                        y su lenguaje nativo de programación: GDSCRIPT
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">proyecto aun en desarrollo!😁</small>
+                                    </p>
+                                    <a href="https://github.com/Panchober27/godot-demon-game"
+                                        class="btn btn-primary">Ver en github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/icons/Attack4.png" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Como Ejecutar?</h5>
+                                    <p class="card-text">
+                                        Para ejecutar el juego debes descargar la siguiente carpeta <a href="#">link de
+                                            la carpeta</a>. <br>
+                                        para poder ejecutar solo se debes dar doble click en el archivo ejecutable
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">aún estoy viendo como
+                                            crear la descarga desde el servidor jijii😅
+                                        </small>
+                                    </p>
+                                    <a href="#" class="btn btn-primary">futuro boton de descarga</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-    <%- include('layouts/_min.footer.ejs') %>
+        <%- include('layouts/_min.footer.ejs') %>
 </body>
+
 </html>

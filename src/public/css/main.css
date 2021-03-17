@@ -5,12 +5,11 @@ body {
 
 .card {
   background-color: black;
-  margin-right: 5px;
   margin-bottom: 7px;
 }
 
 .btn-primary {
-  background-color: black;
+   background-color: black;
   border: ridge orangered;
 }
 .btn-primary:hover {
