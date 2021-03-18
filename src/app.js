@@ -13,17 +13,13 @@ app.set("view engine", "ejs");
 app.use(morgan("dev"));
 // future middlewares
 
-
 // Static files
-app.use(express.static(path.join(__dirname, 'public')));
-
-
+app.use(express.static(path.join(__dirname, "public")));
 
 // Routes
-app.use(require('./routes/index'));
-
+app.use(require("./routes/index"));
 
 // LS.
 app.listen(port, () => {
-    console.log(`Server started on port: ${port}`);
+  console.log(`Server started on port: ${port}`);
 });
