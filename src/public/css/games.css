@@ -8,3 +8,8 @@
     font-family: 'Courier New', Courier, monospace;
     color: green;
 }
+
+.form-label{
+    background-color: black;
+    color: blanchedalmond;
+}
