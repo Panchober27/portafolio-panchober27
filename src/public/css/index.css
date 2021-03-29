@@ -1,4 +1,9 @@
 /* Archivo de estilos para la vista index.ejs */
 h1{
     text-decoration: underline;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
 }
