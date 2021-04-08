@@ -18,6 +18,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Routes
 app.use(require("./routes/index"));
+app.use(require("./routes/movileApps"));
 
 // LS.
 app.listen(port, () => {
