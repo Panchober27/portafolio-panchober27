@@ -6,4 +6,13 @@ router.get('/newroute', (req,res) => {
 });
 
 
+router.get('/juju', (req,res) => {
+   res.send('hola compare');
+});
+
+
+router.get('/pipi', (req,res) => {
+   res.send('Hola desde la ruta antigua aqui en demos');
+});
+
 module.exports = router;
